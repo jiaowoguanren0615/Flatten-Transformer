@@ -46,7 +46,7 @@ def parse_option():
     # easy config modification
     parser.add_argument('--batch-size', type=int, default=8, help="batch size for single GPU")
     parser.add_argument('--device', type=str, default='cuda:0')
-    parser.add_argument('--data_root', type=str, default='/usr/local/Huangshuqi/ImageData/flower_data', help='path to dataset')
+    parser.add_argument('--data_root', type=str, default='/flower_data', help='path to dataset')
     parser.add_argument('--num_workers', type=int, default=0)
     parser.add_argument('--input_size', type=int, default=224, help='input size of every image')
     parser.add_argument('--pin_mem', type=bool, default=True)
