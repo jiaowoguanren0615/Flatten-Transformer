@@ -4,7 +4,7 @@ This is a warehouse for Flatten-Transformer-pytorch-model, The code is mainly de
 ## Vision Transformer with Focused Linear Attention ([https://arxiv.org/pdf/2311.04157.pdf](https://arxiv.org/abs/2308.00442))
 
 ## Precautions
-Before you use the code to train your own data set, please first enter the ___train_gpu.py___ file and modify the ___data_root___, ___batch_size___ and ___nb_classes___ parameters. If you want to draw the confusion matrix and ROC curve, you only need to remove the comments of ___Plot_ROC___ and ___Predictor___ at the end of the code. The comment of the function is enough, and the third parameter can be changed to the path of your own model weights file(.pth).
+Before you use the code to train your own data set, please first enter the ___train_gpu.py___ file and modify the ___data_root___, ___batch_size___ and ___nb_classes___ parameters. If you want to draw the confusion matrix and ROC curve, you only need to remove the comments of ___Plot_ROC___ and ___Predictor___ at the end of the code. The third parameter can be changed to the path of your own model weights file(.pth).
 
 ## Train this model
 ### train model with single-machine single-card：
